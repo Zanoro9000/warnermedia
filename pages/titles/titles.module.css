@@ -1,0 +1,40 @@
+.title {
+	margin: 0;
+	line-height: 1.15;
+	font-size: 4rem;
+}
+
+.navHeader {
+	width: 100%;
+}
+
+.subHeader {
+	color: black !important;
+	padding-left: 0 !important;
+	font-weight: bold;
+	position: relative !important;
+}
+
+.list {
+	max-height: 33vh;
+	min-height: 10vh;
+	overflow-y: auto;
+	border: 1px solid black;
+	border-radius: 8px;
+	height: calc(100% - 48px);
+}
+
+.noTopPadding {
+	padding-top: 0;
+	width: 100%;
+}
+
+.left {
+	margin-left: 8px;
+	margin-right: auto;
+}
+
+.right {
+	margin-right: 8px;
+	margin-left: auto;
+}
