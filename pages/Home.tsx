@@ -5,7 +5,7 @@ import { IOtherName } from '../API/MovieInterfaces';
 import { getAPI, getSource, IAPIGet } from '../API/MobieAPI';
 import { toast } from 'react-toastify';
 import { toastError } from '../utils/Functions';
-import { TextField, CircularProgress } from '@material-ui/core';
+import { TextField, CircularProgress, Typography } from '@material-ui/core';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { useRouter } from 'next/router';
 
@@ -57,8 +57,10 @@ export default function Home() {
 
 	return (
 		<DefaultLayout>
-			<h1 className={generalClasses.title}>TitleSearch</h1>
-			<p className={generalClasses.description}>Search for a movie title to get started!</p>
+			<Typography className={generalClasses.title} variant="h2">
+				TitleSearch
+			</Typography>
+			<Typography className={generalClasses.description}>Search for a movie title to get started!</Typography>
 
 			<div className={generalClasses.searchBar}>
 				<Autocomplete

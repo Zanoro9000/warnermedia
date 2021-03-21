@@ -5,6 +5,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	max-width: 100%;
 }
 
 /* ------------------ header ------------------------ */
@@ -37,6 +38,12 @@
 	text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+	.centerFooter {
+		display: none;
+	}
+}
+
 .rightFooter {
 	margin-left: auto;
 	margin-right: 8px;
@@ -52,7 +59,7 @@
 }
 
 .footerLink {
-	display: 'flex';
+	display: flex;
 }
 
 /* ------------------ title ------------------------ */
@@ -82,6 +89,13 @@
 .description {
 	line-height: 1.5;
 	font-size: 1.5rem;
+	margin-bottom: 20% !important;
+}
+
+@media (max-height: 600px) {
+	.description {
+		margin-bottom: 0 !important;
+	}
 }
 
 .code {
@@ -153,5 +167,6 @@
 }
 
 .searchBar {
+	padding: 16px 0;
 	width: 100%;
 }
