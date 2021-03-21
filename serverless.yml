@@ -3,19 +3,19 @@
 warnermedia:
   component: '@sls-next/serverless-component@1.19.0-alpha.19'
   inputs:
-    domain: tylerkennedy.dev
-  service: ${warnermedia:custom.name}
+    domain: warnermedia.tylerkennedy.dev
+  service: ${warnermedia.custom.name}
   provider:
     name: aws
     runtime: nodejs12.x
     stage: ${opt:stage, 'dev'}
     region: us-east-1
-    profile: ${warnermedia:custom.profiles.${opt:stage, warnermedia:provider.stage, 'dev'}}
+    profile: ${warnermedia.custom.profiles.${opt:stage, warnermedia.provider.stage, 'dev'}}
   plugins:
     - serverless-domain-manager
   custom:
     name: warnermedia
-    assetsBucketName: 'warnermedia-assets-${warnermedia:provider.stage}'
+    assetsBucketName: 'warnermedia-assets-${warnermedia.provider.stage}'
     profiles:
       dev: devProfile
       prod: prodProfile
@@ -23,7 +23,7 @@ warnermedia:
       domainName: 'warnermedia.tylerkennedy.dev'
       certificateName: '*.tylerkennedy.dev'
       basePath: ''
-      stage: ${warnermedia:provider.stage}
+      stage: ${warnermedia.provider.stage}
       createRoute53Record: true
   package:
     # exclude everything

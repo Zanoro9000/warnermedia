@@ -2,6 +2,18 @@
 
 Warner Media Coding Challenge for Tyler Kennedy
 
+------------------- Setup to Run ------------------------
+
+The stack used:
+Next.js
+.NET Core WebApi
+EF Core ORM
+SQL Express
+
+Next.js because I was currently learning it for my personal resume site and wanted more experience with it.
+.Net Core and EF Core 5.0 because that is what I am most comfortable with (and 5.0 has many to many joins without explicit join tables which are sweet).
+SQL Express becuause that is what was defined in the prompt.
+
 ------------------- Tutorials for serverless ------------------------
 
 - This was done previously and re-used for this project
