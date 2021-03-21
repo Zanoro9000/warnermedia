@@ -41,3 +41,4 @@ Setup:
 - No guarantees that it will work but good luck
 - Once done, run the application from the play button in the top center and if your IIS is enabled properly the application will run and do nothing but be in the running state
 - At this point, if you have already set up Next.js, refresh the page and the spinning icon on the search-bar should be gone after a second and you can search for all your titles.
+- If this doesn't work, you may have to change the hosted API location in API/APIConfig.ts and make sure that the url you are using is the correct one based on where your API is broadcasting to
