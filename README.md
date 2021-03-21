@@ -20,7 +20,8 @@ https://github.com/Zanoro9000/WarnerMediaAPI - this one is for the .Net Core API
 
 Setup:
 
-- Next.JS
+Next.JS
+
 - Tools you need: VS Code (https://code.visualstudio.com/download), Node (>=v10.13) (https://nodejs.org/en/download/)
 - Once you have both installed, (and the repository cloned from github - help here if necessary: https://code.visualstudio.com/docs/editor/github)
 - Open the terminal and run: npm run dev
@@ -28,7 +29,8 @@ Setup:
 - You can open the browser to localhost:3000 and see the home page
 - You will get an error message saying Network Error because your API isn't running. (Unless you do these backwards)
 
-- API
+API
+
 - Tools you need: Visual Studio (https://visualstudio.microsoft.com/downloads/), IIS Enabled on your computer (https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1)
 - Clone the repository from github (https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2019?view=vs-2019&tabs=vs168later)
 - If you just installed the new version of visual studio there's a new github interface that can be confusing
