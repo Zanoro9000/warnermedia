@@ -32,7 +32,7 @@ Next.JS
 
 API
 
-- Tools you need: Visual Studio (https://visualstudio.microsoft.com/downloads/), IIS Enabled on your computer (https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1)
+- Tools you need: Visual Studio (https://visualstudio.microsoft.com/downloads/) (make sure to include .Net Core 3.1 in the installation), IIS Enabled on your computer (https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1)
 - Clone the repository from github (https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2019?view=vs-2019&tabs=vs168later)
 - If you just installed the new version of visual studio there's a new github interface that can be confusing
 - Go to the Package Manager: Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution

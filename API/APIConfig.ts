@@ -1,6 +1,5 @@
 import axios, { AxiosInstance } from 'axios';
 
-export const prod = 'https://api.tylerkennedy.com';
 export const local = 'https://localhost:44364';
 
 // get base url each time called, to allow API switching across all calls (NOT FULLY IMPLEMENTED)
